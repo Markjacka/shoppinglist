@@ -1,0 +1,9 @@
+let shoppingList = [
+    { name: "Milk", quantity: 2 },
+    { name: "Bread", quantity: 1 },
+    { name: "Eggs", quantity: 12 }
+];
+
+for (let i = 0; i < shoppingList.length; i++) {
+    console.log(shoppingList[i].name + " - Quantity: " + shoppingList[i].quantity);
+}
